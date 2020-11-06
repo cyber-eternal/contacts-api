@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "./src/index.js",
   "scripts": {
-    "build": "npm run clean && NODE_ENV=dev && babel ./src --out-dir ./dist/ --ignore ./node_modules/",
+    "build": "npm run clean && NODE_ENV=dev && babel ./src --out-dir ./dist/ --ignore ./node_modules/ --copy-files",
     "start": "node ./dist/index",
     "start:dev": "clear && NODE_ENV=dev nodemon src/index.js --exec babel-node | bunyan",
     "start:prod": "clear && NODE_ENV=prod && ENVIRONMENT=prod nodemon src/index.js --exec babel-node | bunyan",
