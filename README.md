@@ -12,11 +12,14 @@ After pulling the repository please add the `.env` file in the root directory ba
 
 The API will be run on port 3000. For sending a response to the API use the following URL
 
-[http://localhost:3331](http://localhost:3331)
+Local [http://localhost:3331](http://localhost:3331)
+
+Deployed [http://52.91.18.50:3000](http://52.91.18.50:3000)
+
 
 The documentation of API You can see
-
-[http://localhost:3331/api-doc](http://localhost:3331/api-doc)
+Local [http://localhost:3331/api-doc](http://localhost:3331/api-doc)
+Deployed [http://52.91.18.50:3000/api-doc](http://52.91.18.50:3000/api-doc)
 
 ## Deploying and run in a docker container
 
