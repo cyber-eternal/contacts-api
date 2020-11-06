@@ -14,6 +14,10 @@ The API will be run on port 3000. For sending a response to the API use the foll
 
 [http://localhost:3331](http://localhost:3331)
 
+The documentation of API You can see
+
+[http://localhost:3331/api-doc](http://localhost:3331/api-doc)
+
 ## Deploying and run in a docker container
 
 1) Clone repository
