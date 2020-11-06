@@ -9,7 +9,7 @@ import log from './components/utils/log';
 
 const doc = createDoc({
   src: path.resolve(__dirname, 'app'),
-  dest: path.resolve(__dirname, 'doc')
+  dest: path.resolve(__dirname, '../doc')
 });
 
 if (typeof doc !== 'boolean') console.log('Documentation was generated!');

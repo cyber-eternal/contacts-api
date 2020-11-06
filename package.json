@@ -58,7 +58,7 @@
   "nodemonConfig": {
     "ignore": [
       "./doc",
-      "./src/doc"
+      "../doc"
     ]
   }
 }
